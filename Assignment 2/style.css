@@ -1,0 +1,269 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #833ab4, #fd1d1d,#fcb045);
+    color: white;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+
+    font-size: 50px;
+}
+p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Roboto Light", cursive;
+    color: #ffffff;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    line-height: 10px;
+
+}
+
+#rock, #paper, #scissors {
+    width: 170px;
+    height: 50px;
+    margin-top: 80px;
+    margin: 10px;
+    font-family: "Roboto Light", cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+}
+#rock {
+    background: linear-gradient(to right, #0731a2, #1cde98);
+    border-color: #000000;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+#rock:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #09215b, #00734c);
+    border-color: #009c64;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+#paper {
+    background: linear-gradient(to right, #1cde98, #e52363);
+    border-color: #000000;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+#paper:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #00734c, #9d0034);
+    border-color: #000000;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+#scissors {
+    background: linear-gradient(to right, #e52363, #0731a2);
+    border-color: #000000;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+#scissors:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #9d0034, #09215b);
+    border-color: #000000;
+    box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.5)
+}
+
+
+
+#result strong {
+    margin-top: 60px;
+    font-family: 'Bangers', cursive;
+    font-size: 38px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#result p.Win {
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+
+}
+
+#result p.Lose {
+    color: #000000 ;
+    letter-spacing: 2px;
+    text-shadow:
+            -1px -1px 0 #ffffff,
+            1px -1px 0 #ffffff,
+            -1px 1px 0 #ffffff,
+            1px 1px 0 #ffffff;
+}
+
+#result p.Tie {
+
+    color: #8400ff;
+    text-shadow:
+            -1px -1px 0 #ffc3fc,
+            1px -1px 0 #ffc3fc,
+            -1px 1px 0 #ffc3fc,
+            1px 1px 0 #ffc3fc;
+    letter-spacing: 2px;
+}
+ #startGameButton {
+     color: white;
+     text-shadow:
+             -1px -1px 0 #000000,
+             1px -1px 0 #000000,
+             -1px 1px 0 #000000,
+             1px 1px 0 #000000;
+     background: linear-gradient(to right, #e52363, #0731a2, #1CDE98FF);
+     border-color: #000000;
+     border-bottom-style: solid;
+     width: 250px;
+     height: 60px;
+     font-size: 25px;
+     font-family: 'Bangers', cursive;
+     border-radius: 10px;
+     box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.4);
+     margin-top: 20px;
+ }
+ #startGameButton:hover {
+     transform: scale(1.1);
+     background: linear-gradient(to right, #a21845, #042477, #128c60);
+     border-color: #000000;
+     color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 8px 8px 18px 5px rgba(0, 0, 0, 0.4)
+ }
+
+ .word1 {
+ color:  #00237e;
+     text-shadow:
+             -1px -1px 0 #fca7c0,
+             1px -1px 0 #fca7c0,
+             -1px 1px 0 #fca7c0,
+             1px 1px 0 #fca7c0;
+ }
+ .word2 {
+     color: #2de5a9;
+     text-shadow:
+     -1px -1px 0 #00237e,
+     1px -1px 0 #00237e,
+     -1px 1px 0 #00237e,
+     1px 1px 0 #00237e;
+ }
+ .word3 {
+     color: #fca7c0;
+     text-shadow:
+             -1px -1px 0 #00237e,
+             1px -1px 0 #00237e,
+             -1px 1px 0 #00237e,
+             1px 1px 0 #00237e;
+ }
+ .word4 {
+     color: #00237EFF;
+     text-shadow:
+             -1px -1px 0 #2de5a9,
+             1px -1px 0 #2de5a9,
+             -1px 1px 0 #2de5a9,
+             1px 1px 0 #2de5a9;
+ }
+
+.choice-rock {
+    color: #f6a3bc;
+    text-shadow:
+            -1px -1px 0 #00237e,
+            1px -1px 0 #00237e,
+            -1px 1px 0 #00237e,
+            1px 1px 0 #00237e;
+}
+
+.choice-paper {
+    color: #2de5a9;
+    text-shadow:
+            -1px -1px 0 #00237e,
+            1px -1px 0 #00237e,
+            -1px 1px 0 #00237e,
+            1px 1px 0 #00237e;
+}
+
+.choice-scissors {
+    color: #00237e;
+    text-shadow:
+            -1px -1px 0 #2de5a9,
+            1px -1px 0 #2de5a9,
+            -1px 1px 0 #2de5a9,
+            1px 1px 0 #2de5a9;
+}
+.volume-container {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+
+.audio-controls {
+    position: fixed; /* or 'absolute' */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+}
+
+#toggleMusicButton {
+    font-size: 24px;
+    color: #38ffb2;
+    cursor: pointer;
+    margin-right: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#volumeControl {
+    -webkit-appearance: none;
+    width: 100px; /* Adjust as needed */
+    height: 5px;
+    background: linear-gradient(to right, #e52363, #0731a2, #1CDE98FF);
+    outline: none;
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#volumeControl::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #38ffb2;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+#weaponText p:first-child {
+    font-size: 18px;
+    color: #ffffff;
+
+
+}
+#weaponText p:last-child {
+    margin-top: 70px;
+    font-family: 'Bangers', sans-serif;
+    line-height: 20px;
+    font-size: 30px;
+    color: #ffc8d8;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+}
+
+.highlight {
+    font-size: 22px;
+    color: #ffc8d8;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+}
